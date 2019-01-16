@@ -2,68 +2,56 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>My Website<title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>REGISTER</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheet.css" />
+    <script src="main.js"></script>
 </head>
-<body background="tower.jpg">
-        <header class="nav">
-                <div class="brand-name">
-                    Company Logo
-                </div>
-                <nav class="nav-links">
+<body>      
+        <header>
+                <div class="main">
+                    <div class="logo">
+                        <img src="" alt=" TOWERS">
+                    </div>
+                    
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a href="#">Sign Up</a></li>
+                        <li><a class="active" href="#">HOME</a></li>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">SIGN UP</a></li>
                     </ul>
-                </nav>
+                </div>
         </header>
         <div>
-            <!-- login form -->
-		    				<div class="login-form-container">
-                                    <form>
-                                        <!--firstname-->
-                                        <div class="input-container">
-                                                <label>Firstname</label>
-                                                <input type="text" value="firstname" />
-                                            </div>
-
-                                             <!--lastname-->
-                                        <div class="input-container">
-                                                <label>lastname</label>
-                                                <input type="text" value="lastname" />
-                                            </div>
-
-                                        <!--email-->
-                                        <div class="input-container">
-                                            <label>Email</label>
-                                            <input type="text" value="email" />
-                                        </div>
-
-                                         <!--phone number-->
-                                         <div class="input-container">
-                                                <label>Phone Number</label>
-                                                <input type="tel" value="select" />
-                                            </div>
-
-                                         <!--birthday-->
-                                         <div class="input-container">
-                                                <label>Birthday</label>
-                                                <input type="date" value="select" />
-                                            </div>
-
-                                             <!--gender-->
-                                        <div class="input-container">
-                                                <label>Gender</label>
-                                                <input type="text" value="firstname" />
-                                            </div>
-    
-                                       
-                                        </div>
+    <form action="action_page.php">
+        <div class="container">
+            
+<label for="firstname"><b>Firstname</b></label>
+<input type="text" placeholder="firstname" name="firstname">
+<br>
+<label for="lastname"><b>Lastname</b></label>
+<input type="text" placeholder="lastname" name="lastname">
+<br>
+<label for="emai"><b>Email</b></label>
+<input type="text" placeholder="email" name="email">
+<br>
+<label for="phone_number"><b>Phone Number</b></label>
+<input type="tel" placeholder="phone_number" name="phone number">
+<br>
+<label for="gender"><b>Gender</b></label>
+<input type="select" placeholder=" select" name="gender">
+<br>
+<label for="birthday"><b>Birthday</b></label>
+<input type="select" placeholder="dd/mm/yy" name="gender">
+<br>
         </div>
-</body>
+        <div class="container">
+            <button type="button" class="submitbtn"> Sign In</button>
 
+        </div>
+    </form>
+</div>
+</header>
+</body>
 </html>

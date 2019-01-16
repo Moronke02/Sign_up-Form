@@ -1,0 +1,109 @@
+*{
+   margin:0;
+   padding: 0;
+    
+    }
+    
+body{
+    background: url(tower.jpg) no-repeat center center fixed; 
+     background-size: cover;
+    height:100vh;
+    }
+
+    img {
+        min-height: 100%;
+        min-width:1024px;
+        width: 100%;
+        height:auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+
+    }
+
+    @media screen and (max-width: 1024px) { /* Specific to this particular image */
+        img.tower{
+          left: 50%;
+          margin-left: -512px;   /* 50% */
+        }
+
+  ul{
+       float: right;
+       list-style-type: none;
+       margin-top: 25px;
+  }
+
+  ul li{
+      display: inline-block;
+      margin-right: 40px;
+      
+  }
+  ul li a{
+      text-decoration: none;
+      color: white;
+      padding: 5px 0.2px;
+      transition: 0.5s ease;
+  }
+
+  ul li a:hover {
+      color:rgba(225,225,225,0.75);
+  }
+
+  ul li a.active{
+      border-bottom: 2px solid#cd99d4;
+      color: #fff;
+  }
+
+  .logo{
+      float: left;
+      position:absolute;
+      top:27px;
+      color:white;
+  }login-form-container{
+	position: relative;
+	width: 100%;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #3c3f39;
+    box-sizing: border-box;
+    color: #3c3f39;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #696969;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) 
+ 
+/* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px)
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) 
+  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) 
+    }
