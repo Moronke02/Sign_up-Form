@@ -1,26 +1,11 @@
-body {
-    background-image: url(Image.jpg);
-background-size: cover;
+body{
+    background-color: whitesmoke;
 }
-
-.navbar-brand {
-    float: left;
-    position: absolute;
-    font-size: 55px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 200;
+h1{
+    text-decoration: none;
+    font-size: 50px;
 }
-
-.navbar {
-padding: .8rem;
-}
-
-#navbar-nav li {
-    padding-right: 20px;
-    display: inline-block;
-}
-
-#form {
+form {
     border: 2px;
     margin: 150px auto;
     background-color:rgb(180, 152, 80);
